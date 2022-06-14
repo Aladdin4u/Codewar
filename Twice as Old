@@ -1,0 +1,23 @@
+//PREP parameters, return, example, pseudo code
+/**
+
+Your function takes two arguments:
+current father's age (years)
+current age of his son (years)
+Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
+
+**/  
+//P: string
+//R: console
+//P: 
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  let doubleSonYears = sonYearsOld* 2
+  if(dadYearsOld >= doubleSonYears){
+    return dadYearsOld - doubleSonYears
+  } else {
+  return doubleSonYears - dadYearsOld
+    }
+}
+//E:
+twiceAsOld(36,7) //22
+twiceAsOld(55,30) // 5
