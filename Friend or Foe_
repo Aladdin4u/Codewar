@@ -6,7 +6,7 @@ If a name has exactly 4 letters in it, you can be sure that it has to be a frien
 
 
 **/  
-//P: number
+//P: string
 //R: console
 //P: 
 function friend(friends){
