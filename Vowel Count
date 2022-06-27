@@ -1,0 +1,26 @@
+//PREP parameters, return, example, pseudo code
+/**
+Return the number (count) of vowels in the given string.
+
+We will consider a, e, i, o, u as vowels for this Kata (but not y).
+
+The input string will only consist of lower case letters and/or spaces.
+**/  
+//P: number
+//R: console
+//P: 
+function getCount(str) {
+  let vowels = ['a','e','i','o','u']
+  let words = str.split('')
+  let count = 0;
+  vowels.forEach(vowel => {
+    words.forEach(word => {
+      if(word === vowel){
+        count++;
+        }
+    })
+  })
+return count;
+}
+// E:
+getCount("abracadabra") // 5
