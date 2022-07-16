@@ -1,6 +1,7 @@
 # Codewar
 
 A repository filled with codewars challenges (kata). Push solutions every week.
+## link to project: https://www.codewars.com/users/Aladdin4u
 
 How It's Made:
 Tech used: JavaScript
