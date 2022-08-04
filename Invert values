@@ -1,0 +1,29 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Given a set of numbers, return the 
+additive inverse of each. Each positive 
+becomes negatives, and the negatives 
+become positives.
+**/  
+//P: string
+//R: console
+//P:
+function invert(array) {
+  let inverter= []
+  for(let i =0; i < array.length; i++){
+    if(array[i] > 0){
+      inverter.push(array[i] - (array[i] *2))
+    }
+    if(array[i] < 0){
+      inverter.push(Math.abs(array[i]))
+    }
+    if(array[i] === 0){
+      inverter.push(-array[i])
+    }
+  }
+   return inverter;
+}
+//E:
+invert([1,2,3,4,5]) == [-1,-2,-3,-4,-5]
+invert([1,-2,3,-4,5]) == [-1,2,-3,4,-5]
+invert([]) == []
