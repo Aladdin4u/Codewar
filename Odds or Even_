@@ -1,8 +1,0 @@
-function oddOrEven(array) {
-  const arrays = array.reduce((acc,a) => acc+a,0);
-   if(arrays % 2 == 0){
-     return "even";
-   } else {
-     return "odd";
-   }
-}

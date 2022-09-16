@@ -1,6 +1,0 @@
-function sumTwoSmallestNumbers(numbers) {  
-  a = Math.min.apply(Math, numbers);
-  numbers.splice(numbers.indexOf(a), 1);
-  b = Math.min.apply(Math, numbers);
-  return (a + b);
-}
