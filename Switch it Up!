@@ -1,0 +1,50 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+When provided with a number between 0-9, return it in words.
+
+Input :: 1
+
+Output :: "One".
+
+If your language supports it, try using a switch statement.
+**/  
+//P: String 
+//R: console
+//P:
+function switchItUp(number){
+  let res = "";
+ switch(number) {
+   case 1:
+   res = "One"
+   break;
+   case 2:
+   res = "Two"
+   break;
+   case 3:
+   res = "Three"
+   break;
+   case 4:
+   res = "Four"
+   break;
+   case 5:
+   res = "Five"
+   break;
+   case 6:
+   res = "Six"
+   break;
+   case 7:
+   res = "Seven"
+   break;
+   case 8:
+   res = "Eight"
+   break;
+   case 9:
+   res = "Nine"
+   break;
+   default:
+   res = "Zero";
+     }
+return res
+}
+//E:
+console.log(switchItUp(5)) // Five
