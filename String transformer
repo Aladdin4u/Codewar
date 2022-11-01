@@ -1,0 +1,23 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Given a string, return a new string that has transformed based on the input:
+
+Change case of every character, ie. lower case to upper case, upper case to lower case.
+Reverse the order of words from the input.
+Note: You will have to handle multiple spaces, and leading/trailing spaces.
+
+For example:
+
+"Example Input" ==> "iNPUT eXAMPLE"
+You may assume the input only contain English alphabet and spaces.
+**/  
+//P: string 
+//R: console
+//P:
+function stringTransformer(str) {
+  let word = str.split('').map((el,i,arr) => el.match(/[a-z]/) ? el.toUpperCase() : el.toLowerCase()).join('')
+  let string = word.split(' ').reverse().join(' ')
+  return string 
+}
+//E:
+console.log(repeats("Example Input")) // iNPUT eXAMPLE
