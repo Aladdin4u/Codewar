@@ -1,0 +1,17 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+A Write a function that returns a string in which firstname is swapped with last name.
+
+Example(Input --> Output)
+
+"john McClane" --> "McClane john"
+**/  
+//P: number 
+//R: console
+//P:
+function nameShuffler(str){
+  let word = str.split(' ')
+  return [word[1],word[0]].join(' ')
+}
+//E:
+console.log(nameShuffler("john McClane"))// McClane john
