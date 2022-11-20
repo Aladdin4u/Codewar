@@ -1,0 +1,11 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Find the total sum of internal angles (in degrees) in an n-sided simple polygon. N will be greater than 2.
+**/  
+//P: number 
+//R: console
+//P:
+function angle(n) {
+  return (n - 2) * 180
+}
+console.log(angle(3)) // 180
