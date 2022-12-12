@@ -1,0 +1,25 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Task
+Given a string str, reverse it and omit all non-alphabetic characters.
+
+Example
+For str = "krishan", the output should be "nahsirk".
+
+For str = "ultr53o?n", the output should be "nortlu".
+
+Input/Output
+[input] string str
+A string consists of lowercase latin letters, digits and symbols.
+
+[output] a string
+**/  
+//P: string 
+//R: console
+//P:
+function reverseLetter(str) {
+  return str.replace(/[^a-z]/g,'').split ('').reverse().join('') 
+}
+//E:
+console.log(getEvenNumbers("ultr53o?n")) //nortlu
+
