@@ -1,0 +1,16 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Your task is to remove all consecutive duplicate words from a string, leaving only first words entries. For example:
+
+"alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"
+
+--> "alpha beta gamma delta alpha beta gamma delta"
+**/  
+//P: string 
+//R: console
+//P:
+const removeConsecutiveDuplicates = s => s.split(" ").filter((el,i) => el !== s.split(" ")[i+1]).join(" ")
+
+//E:
+console.log(removeConsecutiveDuplicates("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta")) //alpha beta gamma delta alpha beta gamma delta"
+
