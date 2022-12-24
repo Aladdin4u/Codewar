@@ -1,0 +1,4 @@
+var stringToNumber = function(str){
+  // use number method to change str to number
+  return Number(str);
+}

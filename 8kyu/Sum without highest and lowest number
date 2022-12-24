@@ -1,0 +1,17 @@
+//PREP parameters, return, example, pseudo code
+//P: array of whole number
+//R: console
+//P: 
+function sumArray(array) {
+if(array == null || !array.length ) return 0;
+
+  array.sort((a, b) => a-b);
+
+  var sum = 0;
+
+  for(var i = 1; i < array.length-1; i++)sum+=array[i];
+
+  return sum;
+}
+//E:
+console.log(sumArray([1,3,5,7,8,4])) // 19

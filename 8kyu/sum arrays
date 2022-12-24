@@ -1,0 +1,8 @@
+function sum (numbers) {
+    "use strict";
+  if(numbers === false){
+return 0;
+    } else {
+    return numbers.reduce((acc, v) => acc+v,0)
+  }
+};

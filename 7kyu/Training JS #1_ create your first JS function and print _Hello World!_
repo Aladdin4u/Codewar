@@ -1,0 +1,13 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+In JavaScript, your code is running in a function, let us step by step complete your first JS function.
+**/  
+//P: string 
+//R: console
+//P:
+function helloWorld(){
+  let str = "Hello World!";
+  console.log(str)
+}
+//E:
+// Hello World!

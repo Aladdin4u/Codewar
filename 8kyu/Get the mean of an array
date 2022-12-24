@@ -1,0 +1,16 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+It's the academic year's end, fateful moment of your school report. The averages must be calculated. All the students come to you and entreat you to calculate their average for them. Easy ! You just need to write a script.
+
+Return the average of the given array rounded down to its nearest integer.
+
+The array will never be empty.
+**/  
+//P: number 
+//R: console
+//P:
+function getAverage(marks){
+  return Math.floor(marks.reduce((a,c)=> a + c)/marks.length)
+}
+//E:
+console.log(getAverage([2,2,2,2])) // 2

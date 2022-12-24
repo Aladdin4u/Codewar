@@ -1,0 +1,18 @@
+//PREP parameters, return, example, pseudo code
+/**
+Given two arrays a and b write a function comp(a, b) (orcompSame(a, b)) that checks whether the two arrays have the "same" elements, with the same multiplicities (the multiplicity of a member is the number of times it appears). "Same" means, here, that the elements in b are the elements in a squared, regardless of the order.
+
+**/  
+//P: number
+//R: console
+//P: 
+function comp(array1,array2){
+  array1 = 'a', array2 = 'b'
+  if (!Array.isArray() || !Array.isArray(b) || a.length !== b.length) { return false; } 
+  return a.reduce((x, y) => x+y, 1) === b.reduce((x, y) => x + Math.sqrt(y), 1)
+}
+//E:
+console.log(comp(
+  [121, 144, 19, 161, 19, 144, 19, 11],
+  [11*11, 121*121, 144*144, 19*19, 161*161, 19*19, 144*144, 19*19]
+));

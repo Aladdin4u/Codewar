@@ -1,0 +1,20 @@
+//PREP parameters, return, example, pseudo code
+//P: whole number
+//R: console
+//P: 
+function setAlarm(employed, vacation){
+  if(employed === true && vacation === false){
+
+     return true
+
+   } else {
+
+     return false
+
+   }
+}
+//E:
+setAlarm(true, true) -> false
+setAlarm(false, true) -> false
+setAlarm(false, false) -> false
+setAlarm(true, false) -> true
