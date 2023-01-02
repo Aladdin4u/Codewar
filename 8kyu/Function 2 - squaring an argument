@@ -1,0 +1,13 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Now you have to write a function that takes an argument and returns the square of it.
+**/  
+//P: number 
+//R: console
+//P:
+function square(d){
+  return d ** 2;
+}
+//E:
+console.log(square(3)) // 9
+
