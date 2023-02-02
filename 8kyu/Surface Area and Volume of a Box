@@ -1,0 +1,14 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Write a function that returns the total surface area and volume of a box as an array: [area, volume]
+**/  
+//P: number 
+//R: console
+//
+function getSize(width, height, depth){
+  const area = 2 * (width * height) + 2 * (width * depth) + 2 * (height * depth)
+  const volume = width * height * depth
+        return [area, volume]
+}
+//E:
+console.log(getSize(2,4,8)) //[112,64]
