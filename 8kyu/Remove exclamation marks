@@ -1,0 +1,12 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+**/  
+//P: string 
+//R: console
+//
+function removeExclamationMarks(s) {
+  return s.replace(/!/gi, '');
+}
+//E:
+console.log(removeExclamationMarks("Hello World!")) // Hello World 
