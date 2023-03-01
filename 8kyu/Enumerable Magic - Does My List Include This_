@@ -1,0 +1,12 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Create a method that accepts a list and an item, and returns true if the item belongs to the list, otherwise false.
+**/
+//P: number 
+//R: console
+//
+function include(arr, item){
+  return arr.includes(item)
+}
+//E:
+console.log(include([1,2,3,4],3)) // true 
