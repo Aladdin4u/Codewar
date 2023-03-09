@@ -1,0 +1,17 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Create a combat function that takes the player's current health and the amount of damage recieved, and returns the player's new health. Health can't be less than 0.
+**/
+//P: number 
+//R: console
+//
+function combat(health, damage) {
+  const res = health - damage;
+  if(res > 0) {
+    return res
+  } else {
+    return 0;
+  }
+}
+//E:
+console.log(combat(20, 30),0)
