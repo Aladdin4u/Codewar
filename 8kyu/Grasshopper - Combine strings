@@ -1,0 +1,20 @@
+//PREP parameters, return, example, pseudo code//PREP parameters, return, example, pseudo code
+/**
+Combine strings function
+Create a function named combineNames that accepts two parameters (first and last name). The function should return the full name.
+
+Example:
+
+combineNames('James', 'Stevens')
+returns:
+
+'James Stevens'
+**/  
+//P: string 
+//R: console
+//
+function combineNames(string1, string2) {
+  return string1 + " " + string2;
+}
+//E:
+console.log(combineNames("Zach", "Mark")) // Zach Mark
